@@ -34,6 +34,12 @@ To install React.js, you can include the following script tag in your HTML file:
 <script src="https://unpkg.com/babel-standalone/babel.js"></script>
 ```
 
-Once you have the dependencies installed, you can run the chatbot by executing the `chatbot.py` file.
+To generate the UI prototype, you can use the processed input and the React.js library. Here is an example code snippet to generate the UI prototype:
+
+```javascript
+// Add your code here to generate the UI prototype
+```
+
+Once you have the dependencies installed and the UI prototype code added, you can run the chatbot by executing the `chatbot.py` file.
 
 Enjoy conversing with the UI/UX design chatbot!
