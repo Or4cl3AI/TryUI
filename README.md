@@ -20,10 +20,18 @@ The chatbot can assist with questions or topics such as:
 To use the chatbot, you need to have the following dependencies installed:
 - Python 3.x
 - NLTK library
+- React.js
 
 You can install the NLTK library using the following command:
 ```
 pip install nltk
+```
+
+To install React.js, you can include the following script tag in your HTML file:
+```
+<script src="https://unpkg.com/react/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone/babel.js"></script>
 ```
 
 Once you have the dependencies installed, you can run the chatbot by executing the `chatbot.py` file.
