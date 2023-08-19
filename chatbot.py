@@ -15,7 +15,7 @@ def generate_ui_prototype(processed_input): # Create a new function to generate 
     # Use the processed input to generate the necessary React components for the UI prototype
     # Return the generated React components as a string
     # Add the necessary logic to generate the React components based on the processed input
-    ui_prototype = "Generated UI Prototype" # Example implementation
+    ui_prototype = generate_ui_prototype(processed_input) # Call the generate_ui_prototype function from ui_prototype_generator.py
     return ui_prototype
 
 def main():
