@@ -14,10 +14,18 @@
         // Add your React component rendering and interactivity code here
         // Example code to render a React component
         const App = () => {
+            const [count, setCount] = React.useState(0);
+
+            const handleClick = () => {
+                setCount(count + 1);
+            };
+
             return (
                 <div>
                     <h1>Generated UI Prototype</h1>
                     <p>This is a sample React component.</p>
+                    <p>Count: {count}</p>
+                    <button onClick={handleClick}>Increment</button>
                 </div>
             );
         }
