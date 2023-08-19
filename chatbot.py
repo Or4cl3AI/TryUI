@@ -1,6 +1,7 @@
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from ui_prototype_generator import generate_ui_prototype
 
 def process_input(user_input):
     # Process user input using natural language processing techniques
